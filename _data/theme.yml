@@ -21,18 +21,25 @@ home-banner-image-position: # Default is center
 browse-buttons: true # true/false, adds previous/next arrows to item pages
 
 ##########
-# SUBJECTS PAGE
+# PUBLISHERS PAGE
 #
-subjects-fields: subject;creator # set the field to be featured in the cloud (if left blank, none will be generated)
-subjects-min: 1 # min size for subject cloud, too many terms = slow load time!
-subjects-stopwords: # boxers;boxing;boxer # set of subjects separated by ;, e.g. boxers;boxing
+publishers-fields: publisher # set the field to be featured in the cloud (if left blank, none will be generated)
+publishers-min: 1 # min size for subject cloud, too many terms = slow load time!
+publishers-stopwords: # boxers;boxing;boxer # set of subjects separated by ;, e.g. boxers;boxing
 
 ##########
-# LOCATIONS PAGE
+# GENRES PAGE
 #
-locations-fields: location # set the field to be featured in the cloud
-locations-min: 1 # min size for subject cloud, too many terms = slow load time!
-locations-stopwords: # set of subjects separated by ; that will be removed from display, e.g. boxers;boxing
+genres-fields: genre # set the field to be featured in the cloud (if left blank, none will be generated)
+genres-min: 1 # min size for subject cloud, too many terms = slow load time!
+genres-stopwords: # boxers;boxing;boxer # set of subjects separated by ;, e.g. boxers;boxing
+
+##########
+# KEYWORDS PAGE
+#
+keywords-fields: keywords # set the field to be featured in the cloud
+keywords-min: 1 # min size for subject cloud, too many terms = slow load time!
+keywords-stopwords: # set of subjects separated by ; that will be removed from display, e.g. boxers;boxing
 
 ##########
 # MAP PAGE
@@ -58,7 +65,7 @@ year-nav-increment: 5 # set increments when auto gen nav years
 #
 # add metadata fields for export in data downloads (tip: paste in first row of csv)
 # comma delimited list, reference url is automatic
-metadata-export-fields: "title,creator,date,description,subject,location,latitude,longitude,source,identifier,type,format,language,rights,rightsstatement"
+metadata-export-fields: "title,author,date,publisher,imprint,price,number_of_pages,physical_location,back_cover_composition,paratext,worth_reading?,genre,keywords,image_source,resource_type,format,rights,rightsstatement"
 # generate a facets list for given fields, comma delimited
 metadata-facets-fields: "subject,creator,format"
 
