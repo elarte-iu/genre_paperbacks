@@ -21,18 +21,18 @@ home-banner-image-position: # Default is center
 browse-buttons: true # true/false, adds previous/next arrows to item pages
 
 ##########
-# PUBLISHERS PAGE
+# PUBLISHER PAGE
 #
-publishers-fields: publisher # set the field to be featured in the cloud (if left blank, none will be generated)
-publishers-min: 1 # min size for subject cloud, too many terms = slow load time!
-publishers-stopwords:
+publisher-fields: publisher # set the field to be featured in the cloud (if left blank, none will be generated)
+publisher-min: 1 # min size for subject cloud, too many terms = slow load time!
+publisher-stopwords:
 
 ##########
 # GENRES PAGE
 #
-genres-fields: genre # set the field to be featured in the cloud (if left blank, none will be generated)
-genres-min: 1 # min size for subject cloud, too many terms = slow load time!
-genres-stopwords:
+genre-fields: genre # set the field to be featured in the cloud (if left blank, none will be generated)
+genre-min: 1 # min size for subject cloud, too many terms = slow load time!
+genre-stopwords:
 
 ##########
 # KEYWORDS PAGE
