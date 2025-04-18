@@ -21,6 +21,20 @@ home-banner-image-position: # Default is center
 browse-buttons: true # true/false, adds previous/next arrows to item pages
 
 ##########
+# SUBJECTS PAGE
+#
+subjects-fields: subject;creator # set the field to be featured in the cloud (if left blank, none will be generated)
+subjects-min: 1 # min size for subject cloud, too many terms = slow load time!
+subjects-stopwords: # boxers;boxing;boxer # set of subjects separated by ;, e.g. boxers;boxing
+
+##########
+# LOCATIONS PAGE
+#
+locations-fields: place_of_publication # set the field to be featured in the cloud
+locations-min: 1 # min size for subject cloud, too many terms = slow load time!
+locations-stopwords: # set of subjects separated by ; that will be removed from display, e.g. boxers;boxing
+
+##########
 # PUBLISHER PAGE
 #
 publisher-fields: publisher # set the field to be featured in the cloud (if left blank, none will be generated)
@@ -28,7 +42,7 @@ publisher-min: 1 # min size for subject cloud, too many terms = slow load time!
 publisher-stopwords:
 
 ##########
-# GENRES PAGE
+# GENRE PAGE
 #
 genre-fields: genre # set the field to be featured in the cloud (if left blank, none will be generated)
 genre-min: 1 # min size for subject cloud, too many terms = slow load time!
