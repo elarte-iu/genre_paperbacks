@@ -25,21 +25,21 @@ browse-buttons: true # true/false, adds previous/next arrows to item pages
 #
 publishers-fields: publisher # set the field to be featured in the cloud (if left blank, none will be generated)
 publishers-min: 1 # min size for subject cloud, too many terms = slow load time!
-publishers-stopwords: # boxers;boxing;boxer # set of subjects separated by ;, e.g. boxers;boxing
+publishers-stopwords:
 
 ##########
 # GENRES PAGE
 #
 genres-fields: genre # set the field to be featured in the cloud (if left blank, none will be generated)
 genres-min: 1 # min size for subject cloud, too many terms = slow load time!
-genres-stopwords: # boxers;boxing;boxer # set of subjects separated by ;, e.g. boxers;boxing
+genres-stopwords:
 
 ##########
 # KEYWORDS PAGE
 #
 keywords-fields: keywords # set the field to be featured in the cloud
 keywords-min: 1 # min size for subject cloud, too many terms = slow load time!
-keywords-stopwords: # set of subjects separated by ; that will be removed from display, e.g. boxers;boxing
+keywords-stopwords:
 
 ##########
 # MAP PAGE
