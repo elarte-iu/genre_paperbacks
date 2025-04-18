@@ -1,8 +1,8 @@
 display_name,stub,dropdown_parent
 Home,/,
 Browse,/browse.html,
-Genres,/genres.html,
+Genre,/genre.html,
 Keywords,/keywords.html,
-Locations,/locations.html,
+Publisher,/publisher.html,
 Timeline,/timeline.html,
 About,/about.html,
