@@ -8,7 +8,7 @@ credits: true
 # Look in _includes/feature for options to easily add features to the page
 ---
 
-{% include feature/jumbotron.html objectid="/assets/img/jj-ying-WmnsGyaFnCQ-unsplash_opt.jpg" %}
+{% include feature/jumbotron.html objectid="https://bloomington.simpleviewcrm.com/images/listings/original_Lilly-Library_2021-19-_FDFB57A7-5056-A36A-06109B4D9E93B923-fdfb4ce65056a36.jpg" %}
 
 ## About CollectionBuilder-Sheets
 
