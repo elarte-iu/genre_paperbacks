@@ -3,23 +3,21 @@ title: About
 layout: about
 permalink: /about.html
 # include CollectionBuilder info at bottom
-credits: true
+credits: false
 # Edit the markdown on in this file to describe your collection
 # Look in _includes/feature for options to easily add features to the page
 ---
 
 {% include feature/jumbotron.html objectid="https://bloomington.simpleviewcrm.com/images/listings/original_Lilly-Library_2021-19-_FDFB57A7-5056-A36A-06109B4D9E93B923-fdfb4ce65056a36.jpg" %}
 
-## About CollectionBuilder-Sheets
+## About This Project
 
-This site is generated using [CollectionBuilder-Sheets](https://github.com/CollectionBuilder/collectionbuilder-sheets), a template  for creating simple digital exhibit websites by loading collection metadata directly from a CSV, designed for teaching digital library skills and easy hosting on GitHub Pages.
+My client for this project, Rebecca Baumann, has an excellent and extensive collection of genre paperbacks about which they have compiled a wealth of information: they have noted the physical characteristics of each book, its content, and their own observations about it, including story beats, tropes, and whether the book is worth reading. This website is intended to become their very own personal digital database-slash-catalog, with items searchable by title, author, publisher, publication year, genre, and keyword.
 
-Using CB-Sheets, it is possible to use a live Google Sheets spreadsheet for your collection metadata, allowing you to see the outcome of metadata edits update immediately.
-This enables active collaboration to prototype collections with minimal set up.
+Due to limitations imposed by circumstance, I have had to use books from my own personal library for this site as a demo. However, I have gone out of my way to ensure that I addressed all the fields that they mentioned they had in the spreadsheet are present in my own realization of it, to the best of my ability, in hopes that all the core functionalities are there, so the most that would be needed is to swap out one CSV for another. 
 
-## Learn More
+## Project Roadmap
 
-For full details of creating your own collection site, visit [CollectionBuilder Documentation](https://collectionbuilder.github.io/cb-docs/)!
+So, where does this project go from here?
 
-The template repository features four objects from the University of Idaho Library's [Digital Collections](https://www.lib.uidaho.edu/digital). 
-Featured image by [JJ Ying on Unsplash](https://unsplash.com/photos/WmnsGyaFnCQ).
+The most immediate step will be, when time and schedules allow, for me to get the data needed to convert my placeholder objects into the actual collection items for which this website has been created. 
