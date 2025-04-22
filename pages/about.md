@@ -21,3 +21,5 @@ Due to limitations imposed by circumstance, I have had to use books from my own 
 So, where does this project go from here?
 
 The most immediate step will be, when time and schedules allow, for me to get the data needed to convert my placeholder objects into the actual collection items for which this website has been created. 
+
+I also intend to ask my client whether they wish to implement a more sophisticated showcase on the front page, or perhaps multiple, which display only books from a genre (horror, fantasy, sci-fi etc.). They may also desire to have an introductory video or webpage dedicated to their collection, in which case this "About" page will be repurposed, and a video potentially embedded somewhere within its confines. I do not anticipate any need or desire to create a method for inquiry by the public that is integrated into this webpage, as it makes everyone's job easier if that's contained to the usual channels that reference librarians prefer, but I could create submission forms on a separate page on the site if need be with the skills learned from this course.
