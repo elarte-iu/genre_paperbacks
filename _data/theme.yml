@@ -116,7 +116,7 @@ bootswatch: # leave blank or comment out for plain bootstrap
 # THEME FONTS
 base-font-size: 1.2em
 text-color: "#191919"
-link-color: "#0d6efd"
+link-color: "#fd2ffa"
 base-font-family: "'Bellefair', serif" # comment out for bootstrap defaults. e.g. Roboto
 font-cdn: <link href="https://fonts.googleapis.com/css2?family=Bellefair&family=Fleur+De+Leah&display=swap" rel="stylesheet"> # add font stylesheet, e.g. <link href="https://fonts.googleapis.com/css?family=Roboto&display=swap" rel="stylesheet">
 
